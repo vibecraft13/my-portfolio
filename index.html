@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLAWALE JOLAOGUN</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'segoe UI',sans-serif}
+        body{background:#0b1020;color:#e2e8f0}
+        nav{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:#0f172a;position:sticky;to p:0;z-index:10}
+        nav h1{font-size:20px;letter-spacing:1px}
+        nav h1 span{color:#6366f1}
+        nav a{color:#94a3b8;text-decoration:none;margin-left:20px;font-weight:600}
+        nav a:hover{color:white}
+        .hero{display:flex;align-items:center;justify-content:space-between;padding:90px 40px;flex-wrap:wrap;gap:40px;background:radial-gradient(600px at 20% 10%, #1e293b, #0b1020)}
+        .hero-text{max-width:600px}
+        .hero-text h2{font-size:46px;line-height:1.1;margin-bottom:15px}
+        .hero-text h2 b{color:#818cf8}
+        .hero-text p{color:#94a3b8;font-size:18px;margin-bottom:25px}
+        .btn{display:inline-block;background:#6366f1;color:white;padding:12px 24px;border-radius:30px;text-decoration:none;font-weight:700;margin-right:10px}
+        .btn.sec{background:transparent;border:1px solid #334155}
+        .badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+        .badges{background:#1e293b;border:1px solid #334155;padding:6px 12px;border-radius:20px;font-size:12px}
+        section{padding:70px 40px}
+        h2. title{font-size:32px;text-align:center;margin-bottom:40px}
+        .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280,1fr));gap:20px;max-width:1100px;margin:0 auto}
+        .card{background:#111a33;border:1px solid #1e293b;padding:25px;border-radius:16px}
+        .card h3{color:#a5b4fc;margin-bottom:8px}
+        .progress{background:#1e293b;height:8px;border-radius:10px;margin:10px 0;overflow:hidden}
+        .progress
+        div{height:100%;background:#6366f1}
+        .tryhackme{background:#0f172a;border:1px dashed #334155}
+        .tryhackme li{list-style:none;margin:10px 0;display:flex;justify-content:space-between}
+        .check{width:18px;height:18px;border:1px solid #475569;border-radius:4px;cursor:pointer}
+        footer{text-align:center;padding:30px;color:#64748b;background:#020617}
+    </style>
+</head>
+<body>
+ <nav><h1>OLAWALE<span>JOLAOGUN</span></h1><div><a href="#about">About</a><a href="#projects">Projects</a><a href="#labs">Labs</a><a href="#contact">Contact</a></div></nav>
+ <div class="hero">
+ <div class="hero-text">
+ <h2>Web Developer & <b>Aspiring Network Security Analyst</b></h2>
+ <p>Building clean web experiences.
+    Learning how the internet really works
+    underneath - from Osogbo, Osun State,
+    Nigeria. No Bad Energy Zone.</p>
+    <a class="btn" href="#projects">View Projects</a><a class="btn sec"
+    href="#labs">TryHackMe Progress</a>
+    <div class="badges"><div class="badges">HTML/CSS</div><div class="badges">JavaScript</div><div
+    class="badges">Networking</div><div
+    class="badges">TryHackMe</div><div
+    class="badges">Linux Basic</div></div>
+ </div>
+ <div 
+ style="backgound:#111a33;padding:20px;border-radius:20px;border:1px solid #1e293b;width:300px">
+<p style="font-size:13px;color:#94a3b8">Osogbo Osun State, Nigeria</p><p style="margin-top:10px"><b>Current Focus:</b> Pre-Security Path</p>
+<div class="progress"><div
+style="width:35%"></div></div><p style="font-size:12px;color:#94a3b8">35% - 12/34 rooms</p>
+ </div>
+ </div>
+ <section id="about"><h2 class="title">About Me</h2><div class="grid"><div class="card"><h3>Who I Am</h3><p>Self-taught developer turned cybersecurity enthusiast. I started with HTML/CSS and now I'm deep into how networks,packets, and protocols work.</p></div></div></section>
+ <section id="projects"
+ style="background:#0f172a"><h2 class="title">My Projects</h2><div class="grid"><div class="card"><h3>My First Website</h3><p>Landing page with custom CSS, responsive grid.My first vibe project.</p></div><div class="card"><h3>Portfolio V2</h3><p>This portfolio - dark mode, grid, TryHackMe integration. Built from scratch.</p></div><div class="card"><h3>Network Notes</h3><p>Coming: My public notes on OSI model, TCP handshake, DNS - from TryHackMe rooms.</p></div></div>
+</section>   
+<section id="labs"><h2 class="title">TryHackMe Lab Tracker</h2><div class="grid"><div class="card tryhackme"><h3>Pre-security (free path)</h3><ul><li>What is Networking? <span class="check"></span></li><li>OSI Model<span class="check"></span></li><li>Packets & Frames <span class="check"></span></li><li>Extending Your Network <span class="check"></span></li></ul></div><div class="card tryhackme"><h3>Next - complete beginner</h3><ul><li>Linux Fundamentals <span class="check"></span></li><li>Nmap <span class="check"></span></li><li>Network Enumeration <span class="check"></span></li><li>How The Web Works <span class="check"></span></li></ul></div><div class="card"><h3>My stats</h3><p>Add your public TryHackMe link here: tryhackme.com/p/BIG MORETTI</p></div></div></section>
+<section id="contact" style="text-align:center"><h2 class="title">Contact Me</h2><p style="color:#94a3b8;margin-bottom:20px">open to junior web / IT support / SOC intern / remote roles</p><a class="btn"
+href="mailto:jolaogunillyass5@gmail.com">Email Me</a><a class="btn sec" href="#">GitHub</a><p style="margin-top:25px;font-size:13px;color:#475569">My Portfolio Zone Built by BIG MORETTI</p></section>
+<footer>&copy; 2026 Olawale Jolaogun, osogbo,Nigeria</footer>
+</body>
+</html>
